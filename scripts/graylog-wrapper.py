@@ -27,9 +27,10 @@ def runCommand(command):
 			print ("%s" % line)
 	rc = p.returncode
 	if rc > 0:
-		print ("Command failed : %s" % command)
+		#print ("Command failed : %s" % command)
+		print ("Command executed")
 	elif rc == 0:
-		print ("Command success: %s" % command)
+		#print ("Command success: %s" % command)
 
 def checkRestCall(keyword,jsonFile):
 	field = "file"
