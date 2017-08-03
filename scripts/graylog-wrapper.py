@@ -31,6 +31,7 @@ def runCommand(command):
 		print ("Command executed")
 	elif rc == 0:
 		#print ("Command success: %s" % command)
+		print ("Command executed")
 
 def checkRestCall(keyword,jsonFile):
 	field = "file"
